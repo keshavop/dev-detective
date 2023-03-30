@@ -156,6 +156,13 @@ function lightModeProperties() {
     darkMode = false;
     localStorage.setItem("dark-mode", false);
 }
+
 profilecontainer.classList.toggle("active");
 searchbar.classList.toggle("active");
 getUserData(url + "keshavop");
+
+// const gchart = `
+// <img src="https://ghchart.rshah.org/FF0090/${data.login}" alt="" width="500px" id="ghimage">
+// `
+
+// document.getElementById('yabanner').innerHTML = gchart;
